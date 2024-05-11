@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:keepScreenOn="true"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical">
+
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/linear1"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView4"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+   </LinearLayout>
+
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/linear2"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView5"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView6"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView7"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView8"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+   </LinearLayout>
+
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/linear3"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView9"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView10"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView11"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView12"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+   </LinearLayout>
+
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/linear4"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView13"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView14"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView15"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+     <org.videolan.libvlc.util.VLCVideoLayout
+       android:id="@+id/previewView16"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1" />
+
+   </LinearLayout>
+
+ </LinearLayout>
+
+ <!-- <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/linear1"
+      android:orientation="horizontal"
+      android:layout_weight="1">
+
+      <SurfaceView
+        android:id="@+id/previewView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/linear2"
+      android:orientation="horizontal"
+      android:layout_weight="1">
+
+      <SurfaceView
+        android:id="@+id/previewView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/linear3"
+      android:orientation="horizontal"
+      android:layout_weight="1">
+
+      <SurfaceView
+        android:id="@+id/previewView9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/linear4"
+      android:orientation="horizontal"
+      android:layout_weight="1">
+
+      <SurfaceView
+        android:id="@+id/previewView13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+      <SurfaceView
+        android:id="@+id/previewView16"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+  </LinearLayout>-->
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="60dp"
+    android:layout_marginEnd="60dp"
+    android:layout_gravity="bottom|end"
+    android:src="@android:drawable/ic_input_add" />
+
+</FrameLayout>
